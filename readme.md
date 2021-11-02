@@ -1,3 +1,4 @@
+```
 desktop:~/resource-ws-issue$ poly test :cl
 Projects to run tests from: command-line
 
@@ -76,3 +77,4 @@ Ran 1 tests containing 1 assertions.
 0 failures, 1 errors.
 
 Test results: 0 passes, 0 failures, 1 errors.
+```
