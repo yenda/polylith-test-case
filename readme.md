@@ -3,7 +3,11 @@ Demo issue with `resources` directory not being accessible from the tests
 REPL
 ```
 com.my-company.cli.core> (hello "bob")
-({:id "20210301000000-test", :up ["select 1\n"], :down [], :transactions nil})
+EXISTS! #object[java.net.URL 0x1c035e8b file:/home/yenda/resource-ws-issue/bases/cli/resources/migrations/postgres/20210301000000-test.up.sql]
+WORKS! (#object[java.net.URL 0x39239dd2 file:/home/yenda/resource-ws-issue/bases/cli/resources/migrations/postgres])
+SLURP! select 1
+
+(#object[java.net.URL 0x17eedc26 "file:/home/yenda/resource-ws-issue/bases/cli/resources/migrations/postgres/20210301000000-test.up.sql"])
 ```
 
 Poly tests
