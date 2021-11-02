@@ -14,6 +14,7 @@ Projects to run tests from: command-line
 Running tests from the command-line project, including 1 brick: cli
 
 Testing com.my-company.cli.core-test
+EXISTS! #<URL file:bases/cli/resources/migrations/postgres/20210301000000-test.up.sql>
 
 ERROR in (hello-test) (File.java:278)
 expected: (= 1 (core/hello "bob"))
@@ -33,7 +34,7 @@ expected: (= 1 (core/hello "bob"))
     resauce.core$resource_dir.invoke (core.clj:72)
     resauce.core$resource_dir.invoke (core.clj:71)
     ragtime.jdbc$load_resources.invoke (jdbc.clj:157)
-    com.my_company.cli.core$hello.invoke (core.clj:6)
+    com.my_company.cli.core$hello.invoke (core.clj:8)
     com.my_company.cli.core_test/fn (core_test.clj:6)
     clojure.test$test_var$fn__7145.invoke (test.clj:701)
     clojure.test$test_var.invoke (test.clj:701)
@@ -84,6 +85,4 @@ expected: (= 1 (core/hello "bob"))
 
 Ran 1 tests containing 1 assertions.
 0 failures, 1 errors.
-
-Test results: 0 passes, 0 failures, 1 errors.
 ```
