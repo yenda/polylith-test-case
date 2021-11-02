@@ -1,3 +1,12 @@
+Demo issue with `resources` directory not being accessible from the tests
+
+REPL
+```
+com.my-company.cli.core> (hello "bob")
+({:id "20210301000000-test", :up ["select 1\n"], :down [], :transactions nil})
+```
+
+Poly tests
 ```
 desktop:~/resource-ws-issue$ poly test :cl
 Projects to run tests from: command-line
