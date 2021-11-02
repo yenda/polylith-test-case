@@ -1,0 +1,4 @@
+{:paths ["src" "resources"]
+ :deps {ragtime/ragtime {:mvn/version "0.8.1"}}
+ :aliases {:test {:extra-paths ["test"]
+                  :extra-deps {}}}}

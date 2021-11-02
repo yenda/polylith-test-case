@@ -1,0 +1,4 @@
+{:deps {poly/cli  {:local/root "../../bases/cli"}}
+
+ :aliases {:test {:extra-paths []
+                  :extra-deps  {}}}}
